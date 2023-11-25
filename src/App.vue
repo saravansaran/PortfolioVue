@@ -1,5 +1,5 @@
 <script>
-import topbar from './components/topbar.vue';
+import topbar from './components/topbar.vue'; 
 
 export default {
     name: 'App', 
@@ -10,7 +10,17 @@ export default {
 </script>
 
 <template>
-  <topbar></topbar>
+  <div class="main-wrapper">
+    <div class="sidebar">
+      <div class="user-profile">
+        <img src="" alt="">
+        <h4>Saravan Kumar</h4>
+      </div>
+    </div>
+    <div class="main-container">
+      
+    </div>
+  </div>
 </template>
 
 <style scoped>
