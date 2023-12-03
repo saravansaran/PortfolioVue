@@ -6,12 +6,22 @@
   body 
   {
     font-family: inter;
+    color:#55527c;
+  }
+  a
+  {
+    color:#55527c;
+  }
+  a:hover
+  {
+    text-decoration: none;
+    color:#55527c;
   }
 .main-wrapper{
     height:100vh;
     background:#fff;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 300px 2fr;
 }
 .sidebar 
 {
@@ -19,6 +29,10 @@
     height:100%;
     max-width:300px;
     border-right: 1px solid rgba(85,82,124,.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
 }
 .user-profile
 {
@@ -28,4 +42,26 @@
 {
     font-weight:700;
     font-size:20px;
+}
+.main-menu ul
+{
+    margin-left:0px;
+    text-align: center;
+    padding-left:0px;   
+    padding:50px 0;
+}
+.main-menu ul li 
+{
+    list-style: none;
+    margin-bottom:40px; 
+}
+.sidebar-footer p 
+{
+    text-align: center;
+}
+.home-container 
+{
+  padding:20px;
+  background-color: #effbf8;
+  min-height: 100vh;
 }
